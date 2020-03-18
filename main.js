@@ -9,7 +9,7 @@ fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/worldstat.php", {
     "method": "GET",
     "headers": {
         "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
-        "x-rapidapi-key": "53009286a0mshdc8ec356f7aa205p1e0e80jsn5858f548ed53"
+        "x-rapidapi-key": "270fa3c13fmshb43ad54eac3cdb5p142010jsne1f8bac6f686"
     }
 })
 .then(response => response.json().then( data => {
@@ -29,7 +29,7 @@ fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.p
     "method": "GET",
     "headers": {
         "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
-        "x-rapidapi-key": "53009286a0mshdc8ec356f7aa205p1e0e80jsn5858f548ed53"
+        "x-rapidapi-key": "270fa3c13fmshb43ad54eac3cdb5p142010jsne1f8bac6f686"
     }
 })
 .then(response => response.json().then(data =>{
